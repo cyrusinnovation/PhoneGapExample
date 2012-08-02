@@ -24,16 +24,16 @@
                 </h3>
             </div>
             <div data-role="content" style="padding: 15px">
-                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                <ul data-role="listview" data-divider-theme="a" data-inset="true">
                     <li data-role="list-divider" role="heading">
                         Cool Actions
                     </li>
-                    <li data-theme="c">
+                    <li data-theme="a">
                         <a href="#page2" data-transition="slide">
                             Get Directions
                         </a>
                     </li>
-                    <li data-theme="c">
+                    <li data-theme="a">
                         <a href="#page3" data-transition="slide">
                             Share Photos
                         </a>
@@ -52,8 +52,17 @@
                     Home
                 </a>
             </div>
-            <div data-role="content" style="padding: 15px">
-                <div id="map_canvas" style="width:250px;height:250px;"></div>
+            <div data-role="content">
+
+                <div id="map_canvas"></div>
+                <a data-theme="a" id="get_directions" data-role="button" href="#">
+                    Get Directions to Cyrus
+                </a>
+                <div id="directions"></div>
+
+            </div>
+            <div id="loading_overlay" data-role="content" class="hidden">
+                <img id="imgAjaxLoader" class="ajaxLoader" src="css/images/ajax-loader.gif" />
             </div>
         </div>
 
