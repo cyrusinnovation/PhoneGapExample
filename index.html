@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title></title>
+        <link href="css/jquery.mobile-1.1.1.min.css" rel="stylesheet"  />
+        <link href="css/my.css" rel="stylesheet" />
+        <link href="css/index.css" rel="stylesheet" />
+		<script src="../platform/cordova-2.0.0.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCexkcq4ASP6JUrpSUD8VAOBPpiSMmbu4M&sensor=true">  </script>
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/jquery.mobile-1.1.1.min.js"></script>
+        <script src="js/jquery.ui.map.full.min.js"> </script>
+        <script src="js/my.js"></script>
+        <script src="js/google_map.js"></script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Cyrus Innovation
+                </h3>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Cool Actions
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page2" data-transition="slide">
+                            Get Directions
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page3" data-transition="slide">
+                            Share Photos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Map -->
+        <div data-role="page" id="page2">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Cyrus Innovation
+                </h3>
+                <a data-role="button" data-rel="back" data-transition="fade" href="#page1" data-icon="home" data-iconpos="left" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <div id="map_canvas" style="width:250px;height:250px;"></div>
+            </div>
+        </div>
+
+        <!-- Map -->
+        <div data-role="page" id="page3">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Cyrus Innovation
+                </h3>
+                <a data-role="button" data-rel="back" data-transition="fade" href="#page1" data-icon="home" data-iconpos="left" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                some stuff
+            </div>
+        </div>
+
+    </body>
+</html>
