@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+    // Page 2 - Map Stuff
     var cyrusPosition = {lat:40.728657, long:-74.004722};
 
 
@@ -48,4 +50,5 @@ $(document).ready(function () {
             );
         }, onError);
     });
+
 });
