@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cf7f9c-7f6d-4832-9b0c-bede550ba013" name="Default" comment="Restructuring everything in our shared cross platform project.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/css/index.css" afterPath="$PROJECT_DIR$/shared/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/index.html" afterPath="$PROJECT_DIR$/shared/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/js/picture_stuff.js" afterPath="$PROJECT_DIR$/shared/js/picture_stuff.js" />
     </list>
@@ -66,7 +64,7 @@
       <file leaf-file-name="picture_stuff.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shared/js/picture_stuff.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="161" selection-start="566" selection-end="566" vertical-scroll-proportion="0.545977">
+            <state line="30" column="8" selection-start="935" selection-end="935" vertical-scroll-proportion="0.86206895">
               <folding />
             </state>
           </provider>
@@ -93,7 +91,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="68" selection-start="3705" selection-end="3715" vertical-scroll-proportion="-12.0">
+            <state line="80" column="18" selection-start="3261" selection-end="3262" vertical-scroll-proportion="-12.625">
               <folding />
             </state>
           </provider>
@@ -132,9 +130,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/shared/js/picture_stuff.js" />
-        <option value="$PROJECT_DIR$/shared/index.html" />
         <option value="$PROJECT_DIR$/shared/css/index.css" />
+        <option value="$PROJECT_DIR$/shared/index.html" />
+        <option value="$PROJECT_DIR$/shared/js/picture_stuff.js" />
       </list>
     </option>
   </component>
@@ -866,11 +864,6 @@
         <state line="11" column="58" selection-start="429" selection-end="429" vertical-scroll-proportion="0.31609195" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/js/google_map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shared/js/my.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -883,9 +876,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shared/js/google_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shared/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="68" selection-start="3705" selection-end="3715" vertical-scroll-proportion="-12.0">
+        <state line="80" column="18" selection-start="3261" selection-end="3262" vertical-scroll-proportion="-12.625">
           <folding />
         </state>
       </provider>
@@ -899,7 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/js/picture_stuff.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="161" selection-start="566" selection-end="566" vertical-scroll-proportion="0.545977">
+        <state line="30" column="8" selection-start="935" selection-end="935" vertical-scroll-proportion="0.86206895">
           <folding />
         </state>
       </provider>
