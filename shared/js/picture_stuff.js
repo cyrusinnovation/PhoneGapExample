@@ -39,7 +39,9 @@ $(document).ready(function () {
     }
 
     function onCancelOrFail(message) {
-        if(message === "no image selected") return;
+        if(message.trim() === "no image selected") return;     //iOS
+        if(message.trim() === "Selection cancelled.") return; //Android
+        if(message.trim() === "Camera cancelled.") return;   //Android
 
         alert('Failed because: ' + message);
     }
