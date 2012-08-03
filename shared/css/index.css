@@ -33,6 +33,15 @@
     position:absolute;
     top:0px;
 }
-.pge-header{
+.pge-footer, .pge-header{
     z-index: 1;
+}
+
+#footer-menu {
+    background-color: rgba(0,0,0,0.8);
+    padding: 1px 10px;
+}
+
+#show-footer-menu, #hide-footer-menu {
+    margin: 4px 5px;
 }

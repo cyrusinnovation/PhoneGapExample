@@ -20,6 +20,18 @@ $(document).ready(function () {
         );
     });
 
+    $('#show-footer-menu').click(function () {
+        $('#footer-menu').slideDown('fast');
+        $('#hide-footer-menu').show();
+        $(this).hide();
+    });
+
+    $('#hide-footer-menu').click(function () {
+        $('#footer-menu').slideUp('fast');
+        $('#show-footer-menu').show();
+        $(this).hide();
+    });
+
     function onPhotoURISuccess(imageURI) {
         $.mobile.changePage($('#page4'), {transition:'slide'});
         var image = document.getElementById('myImage');
