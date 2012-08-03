@@ -14,6 +14,7 @@
         <script src="js/jquery.ui.map.full.min.js"> </script>
         <script src="js/my.js"></script>
         <script src="js/google_map.js"></script>
+        <script src="js/picture_stuff.js"></script>
     </head>
     <body>
         <!-- Home -->
@@ -66,7 +67,7 @@
             </div>
         </div>
 
-        <!-- Picture -->
+        <!-- Camera -->
         <div data-role="page" id="page3">
             <div data-theme="a" data-role="header">
                 <h3>
@@ -77,7 +78,23 @@
                 </a>
             </div>
             <div data-role="content" style="padding: 15px">
+                <a id="take_picture" data-theme="a" data-role="button">Take Picture</a>
                 <a id="select_picture" data-theme="a" data-role="button">Select Picture from Album</a>
+                <a id="view_picture" href="#page4" data-transition="slide" >Inivisible button to view pic</a>
+            </div>
+        </div>
+
+        <!-- Picture -->
+        <div data-role="page" id="page4">
+            <div data-theme="a" data-role="header" class="pge-header">
+                <h3>
+                    Cyrus Innovation
+                </h3>
+                <a data-role="button" data-rel="back" data-transition="fade" href="#page3" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">
+                    Back
+                </a>
+            </div>
+            <div data-role="content">
                 <img id="myImage"/>
             </div>
         </div>
